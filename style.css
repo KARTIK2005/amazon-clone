@@ -23,6 +23,7 @@
     background-position: center;
     height: 50px;
     width: 100%;
+    margin-top: 18px;
 
 }
 .border{
@@ -60,5 +61,18 @@
 /*box3*/
 .nav-search{
     display: flex;
-    
+    margin: 15px;
+}
+.search-icon{
+    margin-top: 8px;
+    margin-left: 4px;
+}
+.search-box{
+    height: 30px;
+    width: 30px;
+    background-color: rgb(255, 217, 4);
+}
+.fa-magnifying-glass{
+    color: #0F1111;
+    margin-left: 2px;
 }
