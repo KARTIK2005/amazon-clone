@@ -9,6 +9,7 @@
     display: flex;
     padding: 0px 20px;
     gap: 20px;
+    justify-content: space-evenly;
     
 }
 .nav-logo{
@@ -65,7 +66,10 @@
     margin-top: 10px;
     width: 786px;
     height: 40px;
-     border-radius: 4px;
+    border-radius: 4px;
+}
+.nav-search:hover{
+    border: 2px solid orange;
 }
 .search-icon{
     margin-top: 12px;
@@ -99,8 +103,8 @@
     margin-top: 12px;
 }
 .country{
-    width: 60.3px;
-    height: 55px;
+    width: 57px;
+    height: 60px;
     display: flex;
 }
 .language{
@@ -110,14 +114,66 @@
     margin-top: 23px;
     margin-left: 5px;
     font-size: 15px;
+    text-align: center;
 }
 .lang-button {
   width: 0;
   height: 0;
-  border-left: 6px solid transparent;
-  border-right: 6px solid transparent;
-  border-top: 6px solid #E6E6E6; /* triangle color */
+  border-left: 4px solid transparent;
+  border-right: 4px solid transparent;
+  border-top: 5px solid #E6E6E6; /* triangle color */
   cursor: pointer;
-  margin-top: 31px;
+  margin-top: 32px;
   margin-left: 5px;
+}
+/*box5*/
+.account-list{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.account-info-h{
+    font-size: 12px;
+    color:#cccccc ;
+   
+}
+.account-info-a{
+    font-size: 14px;
+    color:#cccccc ;
+    
+}
+/*box6*/
+.return{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 75px;
+}
+.return1{
+    font-size: 12px;
+    color:#cccccc ;
+    margin-right: 18px;
+   
+}
+.return2{
+    font-size: 14px;
+    color:#cccccc ;
+    
+}
+/*box6*/
+.cart{
+    width: 84px;
+    display: flex;
+    align-items: center;
+}
+
+.cart-text{
+    color: #cccccc;
+    font-size: 14px;
+    font-weight: 700;
+    margin-top: 15px;
+}
+.cart-icon i{
+    font-size: 35px;
 }
