@@ -7,8 +7,7 @@
     height: 60px;
     background-color: #0F1111;
     display: flex;
-    padding: 0px 20px;
-    gap: 20px;
+    padding: 0px 0px;
     justify-content: space-evenly;
     
 }
@@ -176,4 +175,28 @@
 }
 .cart-icon i{
     font-size: 35px;
+}
+/*panel*/
+.panel{
+    height: 39px;
+    display: flex;
+    background-color: #232f31;
+    color: #FFFFFF;
+    align-items: center;
+}
+.panel-all{
+    margin-left: 20px;
+}
+.panel-ops p{
+    display: inline;
+    margin-left: 15px;
+}
+.panel-ops{
+    width: 90%;
+    font-size: 0.85rem;
+}
+.hero-sec{
+    background-image: url(hero-image.jpg);
+    height: 600px;
+    background-size: cover;
 }
